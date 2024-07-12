@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885482854118",
+    "project_id": "fitness-quest-1d1ca",
+    "storage_bucket": "fitness-quest-1d1ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885482854118:android:e5c5f399be983c0ec9cd27",
+        "android_client_info": {
+          "package_name": "com.example.fitnessquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPgIk5RBy--E_P4M7fg_HrXdkczJpO99o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

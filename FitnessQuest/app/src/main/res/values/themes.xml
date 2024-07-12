@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FitnessQuest" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_dark</item>
+        <item name="colorPrimaryDark">@color/gradient_end</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_700</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.App.TitleSmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.App.LabelLarge</item>
+
+    </style>
+    <!-- Style for the custom dialog -->
+    <style name="CustomDialogStyle" parent="Theme.MaterialComponents.Dialog.Alert">
+        <!-- Customize the font family -->
+        <item name="fontFamily">@font/outfit_regular</item>
+        <!-- Customize the shape appearance for dialog -->
+        <item name="materialAlertDialogTheme">@style/CustomMaterialAlertDialog</item>
+    </style>
+
+    <style name="CustomMaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearance</item>
+    </style>
+
+    <!-- Custom Shape Appearance for rounded corners -->
+    <style name="CustomShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="TextAppearance.App.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/outfit_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/outfit_regular</item>
+    </style>
+
+    <style name="TextAppearance.App.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/outfit_medium</item>
+        <item name="android:fontFamily">@font/outfit_medium</item>
+    </style>
+
+    <style name="Widget.App.NavigationView" parent="Widget.Material3.NavigationView">
+        <item name="itemShapeFillColor">@color/light_background</item>
+    </style>
+
+    <style name="CustomRadioButtonStyle" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/radio_button_background_selector</item> <!-- Selector for custom background -->
+        <item name="android:padding">17dp</item> <!-- Padding inside each radio button -->
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:fontFamily">@font/outfit_regular</item>
+        <item name="android:textColor">?attr/colorOnSurface</item> <!-- Text color -->
+        <item name="android:drawablePadding">8dp</item> <!-- Space between text and drawable -->
+    </style>
+
+
+</resources>

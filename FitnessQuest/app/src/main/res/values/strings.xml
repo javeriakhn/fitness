@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Fitness Quest</string>
+    <string name="empty_email_error">Email cannot be empty</string>
+    <string name="empty_password_error">Password cannot be empty</string>
+    <string name="invalid_email_error">Invalid email address</string>
+    <string name="invalid_password_error">Password must be at least 6 characters</string>
+    <string name="empty_fullname_error">Name should not be empty</string>
+    <string name="short_fullname_error">Enter atleast five characters</string>
+    <string name="invalid_fullname_error">Special characters &amp; numbers are not allowed</string>
+    <string name="login_failed_title">Login Failed</string>
+    <string name="signup_failed_title">Signup Failed</string>
+    <string name="signup_email_exists">Email already registered. Please try with a different email or login instead.</string>
+    <string name="auth_failed_message">Please try again with correct credentials.</string>
+    <string name="email_verification_title">Email Verification Pending</string>
+    <string name="email_verification_message">Check your email and verify your account. You will be able to login once you verify your email.</string>
+    <string name="ok">OK</string>
+    <string name="calories">Burnt Calories</string>
+    <string name="bmi">BMI</string>
+    <string name="category">Categories</string>
+    <string name="exercise_by_target">Target a Muscle</string>
+    <string name="exercise_by_equipments">Exercise By Equipments</string>
+    <string name="exercise_by_body_parts">Exercise For Each Body Part</string>
+    <string name="exercises">" Exercises"</string>
+
+    <string-array name="age_options">
+        <!-- Define age range from 15 to 70 -->
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+
+</resources>

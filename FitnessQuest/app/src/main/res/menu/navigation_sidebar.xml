@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:iconTint="@color/gradient_start"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/goals"
+        android:icon="@drawable/goal"
+        android:iconTint="@color/gradient_start"
+        android:title="Goals" />
+
+    <item
+        android:id="@+id/leaderboard"
+        android:icon="@drawable/leaderboard"
+        android:iconTint="@color/gradient_start"
+        android:title="Leaderboard" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:iconTint="@color/gradient_start"
+        android:title="About App" />
+
+</menu>
